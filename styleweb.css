@@ -1,0 +1,70 @@
+img{
+    max-width:200px;
+    float:right;
+    margin-right: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+figure{
+    text-align:center;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+  color: rgb(0,0,0);
+  font-size: 20px;
+  text-align:justify;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+p{
+  color:rgb(0,0,0);
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align:justify;
+  word-spacing: 1px;
+  
+}
+nav{
+    box-sizing:border-box;
+    color:#06425C;
+    background-color:#e6eeff;
+    overflow: visible;
+    padding:20px;
+    margin-left: 25px;
+    display: block;
+    border:2px solid #e6eeff;
+}
+a{
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 2px;
+    background-color: rgba(56, 160, 56, 0.5);
+    margin:20px;
+    color: rgba(17, 6, 116, 1);
+}
+a:hover{
+    background-color: rgba(22, 111, 228, 0.5);
+    color: rgba(238, 247, 238, 0.925);
+}
+.bottom{
+    display: block;
+}
+.buy{
+    padding: 20px;
+    background-color: rgb(21, 243, 76);
+    color: rgba(238, 247, 238, 0.925);
+}
+.buy:hover{
+    border-radius: 15%;
+    border: solid 2px rgb(10, 8, 139);
+    color: rgb(243, 21, 21);
+}
+#active{
+    background-color:#ffffff;
+    border: solid 2px  rgba(7,93,173,0.89);
+    border-radius: 6%;
+    opacity:0.5;
+}
+
